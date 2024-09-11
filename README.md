@@ -5,7 +5,9 @@ A python application which can show you real-time weather of any city/country, a
 
 ## Requirements:smiley::
 - I've provided the `requirements.txt` file, just run this:
-    pip install -r requirements.txt 
+```bash
+    pip install -r requirements.txt
+```
 and have fun!!:wink::v:
 
 ## Usage
