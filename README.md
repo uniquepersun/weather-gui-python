@@ -14,7 +14,7 @@ and have fun!!:wink::v:
 you can downlaod it from release page [here!](https://github.com/uniquepersun/weather-gui-python/releases) <br> Alternatively, just clone it and run :fire:
 
 ## env variables
-You will also need to add a openWeather API :key: at the place of (`"YOUR_API_KEY"`), which you can take from [open_weather_site](https://openweathermap.org/)
+You will also need to add a openWeather API :key: and put it in the `.env` file at (`"YOUR_API_KEY"`) and then rename the `(dot)env` file to `.env`, which you can take from [open_weather_site](https://openweathermap.org/)
 
 
 ### Some screenshots for you:

@@ -1,10 +1,11 @@
 import tkinter as tk
+import os
 import requests
 import json
+from dotenv import load_dotenv
 
-
-# Replace 'YOUR_API_KEY' with your own API key
-api_key = "YOUR_API_KEY"
+load_dotenv()
+api_key = os.getenv("YOUR_API_KEY")
 
 def get_weather(city):
   url = f"https://api.openweathermap.org/data/2.5/weather?q={city}&appid={api_key}"
